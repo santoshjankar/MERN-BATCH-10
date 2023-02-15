@@ -1,0 +1,111 @@
+.boxcontainer{
+     padding: 1rem;
+     background-color: chartreuse;
+     display: flex;
+    }
+
+.box{
+    background-color: darkkhaki;
+    padding: 2rem;
+    margin: 3rem;
+    color: crimson;
+    width: 2rem;
+    height: 3rem;
+}
+/* flex direction */
+#row{
+     flex-direction: row; 
+}
+
+#coloum{
+    flex-direction: column; 
+}
+
+#rowreverce{
+    flex-direction:row-reverse; 
+}
+
+#coloumreverce{
+    flex-direction:column-reverse; 
+}
+ /* flex justify content row  */
+#box1{
+    justify-content: space-around; 
+}
+
+#box2{  
+     justify-content: space-evenly; 
+}
+
+#box3{
+    justify-content: space-between; 
+}
+
+#box4{
+     justify-content: center; 
+}
+  /* Flex justify content coloum */
+
+#box5{
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+#box6{
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#box7{
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ /* Flex Align Items :row */
+#box8{
+    height: 80vh;
+   align-items: flex-start;
+}
+
+#box9{
+    height: 80vh;
+   align-items:center;
+}
+
+#box10{
+    height: 80vh;
+   align-items: flex-end;
+}
+/* Flex Align Items :coloum */
+#box11{
+    height: 100;
+    flex-direction: column;
+   align-items: flex-start;
+}
+
+#box12{
+    height: 100;
+    flex-direction: column;
+   align-items:center;
+}
+
+#box13{
+    height: 100;
+    flex-direction: column;
+   align-items: flex-end;
+}
+/* Order: any number flex items */
+
+#box1{
+   order:2;
+}
+
+#box2{
+    order:3;
+}
+
+#box3{
+    order:1;
+}

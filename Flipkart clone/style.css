@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url("bg.png");
+
+
+}
+
+.dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.507);
+
+}
+
+.main-container {
+    background-color: chartreuse;
+    width: 58vw;
+    height: 85vh;
+    display: flex;
+
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20vh;
+    color: white;
+    letter-spacing: 2px;
+
+}
+
+.left {
+    width: 45%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+
+}
+
+.left-container>p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+
+}
+
+.right {
+    width: 55%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 1rem 1.5rem;
+    border: 1px solid black;
+
+
+}
+
+form {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.input-container>input {
+    width: 100%;
+    padding: 1rem 0rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000000c0;
+
+
+
+}
+
+.input-container>a {
+    position: relative;
+    left: 13.7rem;
+    bottom: 3rem;
+}
+
+.btn-container {
+
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.btn-container>input {
+    padding: 0.9rem;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+
+}
+
+.btn-container>p {
+    text-align: center;
+}
+
+.btn-container>input:nth-child(1) {
+    background-color: orangered;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.btn-container>input:nth-child(3) {
+    font-weight: bold;
+    color: blue;
+    letter-spacing: 1px;
+    font-size: large;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
